@@ -8,4 +8,23 @@ export default class Song {
         this.price = song.collectionPrice
         this.preview = song.previewUrl
     }
+    get Template() {
+        return `
+        <div class="col">
+                <div id="songs">
+                    <ul>
+                        <li class="card" id="albumCard">
+                        <img src="${this.albumArt}"/>
+                        <h4>${this.artist}</h4>
+                        <h8>${this.collection}</h8>
+                        <p><b>${this.price}</b></p>
+                        <p><b>${this.title}</b></p>
+                        <button class="btn-md btn-info "onclick="app.controllers.itunesCtrl.musicPlayer('${this.preview}')">Play</button>
+                        </li>
+                        
+                    </ul>
+                </div>
+                </div>
+            `
+    }
 }

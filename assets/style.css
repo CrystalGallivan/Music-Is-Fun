@@ -1,0 +1,49 @@
+body{
+  background-image: url('bgImage3.jfif');
+  background-attachment: fixed;
+}
+#form{
+  float: center;
+  display: block;
+  justify-content: center;
+  height: 80px;
+  background-color: rgba(9, 9, 9, .4);
+  position: fixed;
+  top: 0;
+ z-index: 2;
+}
+
+#navBarMusic {
+  float: center;
+  display: block;
+  justify-content: center;
+  height: 80px;
+  background-color: rgba(9, 9, 9, .4);
+  position: fixed;
+  bottom: 0;
+  
+}
+
+#songs{
+  margin-top: 100px;
+  position: relative;
+  /* z-index:; */
+  text-align: center;
+}
+
+#Player{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#albumCard{
+ max-width: 255px;
+
+}
+#searchBar{
+display: flex;
+  justify-content: flex-end;
+  color: whitesmoke;
+  align-items: space-between;
+}

@@ -35,7 +35,10 @@ class ItunesService {
     _subscribers[prop].push(fn)
   }
 }
+// playCurrentSong(event){
 
+
+// }
 
 
 export default ItunesService
