@@ -19,7 +19,7 @@ export default class Song {
                         <h8>${this.collection}</h8>
                         <p><b>${this.price}</b></p>
                         <p><b>${this.title}</b></p>
-                        <button class="btn-md btn-info "onclick="app.controllers.itunesCtrl.musicPlayer('${this.preview}')">Play</button>
+                        <button class="btn btn-sm btn-info "onclick="app.controllers.itunesCtrl.musicPlayer('${this.preview}')"><i class="fas fa-play"></i></button>
                         </li>
                         
                     </ul>

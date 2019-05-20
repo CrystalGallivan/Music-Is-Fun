@@ -46,4 +46,10 @@ display: flex;
   justify-content: flex-end;
   color: whitesmoke;
   align-items: space-between;
+  margin: 20px;
+  
+}
+h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
